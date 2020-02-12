@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c2c:c2cContract id="2Vu8YOWjV2G8PcYY" name="obAISPContract" xmlns:c2c="http://pingidentity.com/2014/10/c2cContracts">
+    <c2c:extendedAttributes>
+        <c2c:attr name="acr"/>
+        <c2c:attr name="openbanking_intent_id"/>
+        <c2c:attr name="scope"/>
+        <c2c:attr name="accounts"/>
+    </c2c:extendedAttributes>
+</c2c:c2cContract>

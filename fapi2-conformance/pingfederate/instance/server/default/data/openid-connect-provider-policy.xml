@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:OpenIdConnectProviderPolicy enabled="true" defaultPolicyGroupId="obOIDC" trackUserSessionsForLogout="true" xmlns:urn="urn:pingidentity.com:pf:openid:connect:idp:policy">
+    <urn:ProviderPolicyGroup policyId="defaultOIDC" idTokenLife="5" includeSriInIdToken="true" includeUserInfoInIdToken="true" includeSHashInIdToken="true" policyName="defaultOIDC" accessTokenManagerId="defaultATM">
+        <urn:UserInfoMapping>
+            <urn1:AttributeMap Name="sub" Type="Token" Value="entryUUID" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="given_name" Type="Token" Value="given_name" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="family_name" Type="Token" Value="last_name" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="email" Type="Token" Value="email" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        </urn:UserInfoMapping>
+        <urn:scopeAttributesMap/>
+        <urn:attributeContractInclusionMap/>
+    </urn:ProviderPolicyGroup>
+    <urn:ProviderPolicyGroup policyId="adminOIDC" idTokenLife="5" includeSriInIdToken="true" includeUserInfoInIdToken="true" includeSHashInIdToken="true" policyName="adminOIDC" accessTokenManagerId="adminATM">
+        <urn:UserInfoMapping>
+            <urn1:AttributeMap Name="sub" Type="Token" Value="sub" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        </urn:UserInfoMapping>
+        <urn:scopeAttributesMap/>
+        <urn:attributeContractInclusionMap/>
+    </urn:ProviderPolicyGroup>
+    <urn:ProviderPolicyGroup policyId="obOIDC" idTokenLife="5" includeSriInIdToken="true" includeUserInfoInIdToken="true" includeSHashInIdToken="true" policyName="obOIDC" accessTokenManagerId="obATM">
+        <urn:UserInfoMapping>
+            <urn1:AttributeMap Name="acr" Type="Token" Value="acr" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="sub" Type="Token" Value="sub" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="openbanking_intent_id" Type="Token" Value="openbanking_intent_id" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="scope" Type="Token" Value="scope" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        </urn:UserInfoMapping>
+        <urn:scopeAttributesMap>
+            <urn:item>
+                <urn:key>accounts</urn:key>
+                <urn:value>acr openbanking_intent_id scope</urn:value>
+            </urn:item>
+        </urn:scopeAttributesMap>
+        <urn:attributeContractInclusionMap/>
+    </urn:ProviderPolicyGroup>
+</urn:OpenIdConnectProviderPolicy>

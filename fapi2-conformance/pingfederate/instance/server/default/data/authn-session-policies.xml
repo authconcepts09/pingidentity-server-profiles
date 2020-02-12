@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<authnSessionPolicies>
+    <applicationPolicy idleTimeoutMins="60" maxTimeoutMins="480"/>
+    <globalPolicy enableSessions="false" idleTimeoutDisplayUnit="MINUTES" idleTimeoutMins="60" maxTimeoutDisplayUnit="MINUTES" maxTimeoutMins="480" persistentSessions="false"/>
+    <sourcePolicies>
+        <policy authnContextSensitive="false" authnSourceId="aispConsentApplication" authnSourceType="ADAPTER" enableSessions="false" id="NHvT38FCM6lFN3KycuCTWvK1m" persistent="false" timeoutDisplayUnit="MINUTES"/>
+        <policy authnContextSensitive="false" authnSourceId="tWGUiJuoaGYUQaYQflVLiWOrtcK" authnSourceType="IDP_CONN" enableSessions="true" id="uf7LBmBQaTAnRBGURBZCPgf2w" persistent="false" timeoutDisplayUnit="MINUTES"/>
+    </sourcePolicies>
+</authnSessionPolicies>

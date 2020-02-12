@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="OB Policy" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="Issuer">SandboxBank</urn:Field>
+        <urn:Field name="JWKS URL">https://pki-fapi2.ping-eng.com/registration/JWKS</urn:Field>
+        <urn:Field name="Audience">SandboxBank</urn:Field>
+        <urn:Field name="ECDSA">true</urn:Field>
+        <urn:Field name="RSA-PSS">true</urn:Field>
+        <urn:Field name="RSA">true</urn:Field>
+        <urn:Field name="Revoked JWKS validation">false</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="Revoked JWKS validation">false</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables/>
+</urn:PluginConfiguration>

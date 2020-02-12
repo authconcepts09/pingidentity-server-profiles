@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sk:systemKeys xmlns:sk="http://pingidentity.com/2018/01/system-keys">
+    <sk:currentKey>
+        <sk:key>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiSjRvM2xHSFN5dCIsInZlcnNpb24iOiI5LjIuMC4xMCIsInppcCI6IkRFRiJ9..7fcSvgsjoPkXnXe2P6KUBg.C8Rakdl4VpeQ6NaDjYhVFns7IagVwJ7C_h6j-FV1RKeK_vmQWPTc-qHhjHRujF1G.F3BqrWR7j6W50N8u4b9VPw</sk:key>
+        <sk:generatedTime>2019-04-18T17:54:38.542Z</sk:generatedTime>
+    </sk:currentKey>
+    <sk:previousKey xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <sk:pendingKey>
+        <sk:key>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiSjRvM2xHSFN5dCIsInZlcnNpb24iOiI5LjIuMC4xMCIsInppcCI6IkRFRiJ9..rDb80QMzTRYAknhruHt29g.m7BtngUGk5YrsJMuM0u4yGMJDfXlnqec8g0Jft57BGEKS6OHPKKpiMMnFduXvhIZ.FvarLkgGwPkbA3HwV4Wtmw</sk:key>
+        <sk:generatedTime>2019-04-18T17:54:38.543Z</sk:generatedTime>
+    </sk:pendingKey>
+</sk:systemKeys>

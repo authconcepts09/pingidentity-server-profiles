@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:ClientSetting enableDynamicClientRegistration="true" requireInitialAccessToken="false" initialAccessTokenScope="" restrictScopes="false" enforceOneTimeJWT="true" persistentGrantExpirationTime="0" persistentGrantIdleTimeout="0" idTokenSigningAlgorithm="" policyGroupId="obOIDC" isRequireSignedRequest="true" defaultAccessTokenManagerId="obATM" clientCertIssuerDN="" deviceFlowSettingType="SERVER_DEFAULT" xmlns:urn="urn:pingidentity.com:pf:oauth:client:setting">
+    <urn:AllowedExclusiveScopes>accounts</urn:AllowedExclusiveScopes>
+    <urn:ExtendedMetadata parameterName="org_id" parameterDescription="Organisation ID" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="software_client_id" parameterDescription="Software Client ID" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="software_client_description" parameterDescription="Software Client Description" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="software_environment" parameterDescription="Software Environment" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="org_name" parameterDescription="Organisation Name" isMultiValued="false"/>
+    <urn:polciyPlugins>OBPolicy</urn:polciyPlugins>
+</urn:ClientSetting>

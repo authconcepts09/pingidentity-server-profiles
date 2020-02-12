@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="bearer-access-token-management-plugins">
+        <con:item name="adminATM">org.sourceid.oauth20.token.plugin.impl.ReferenceBearerAccessTokenManagementPlugin</con:item>
+        <con:item name="defaultATM">com.pingidentity.pf.access.token.management.plugins.JwtBearerAccessTokenManagementPlugin</con:item>
+        <con:item name="obATM">com.pingidentity.pf.access.token.management.plugins.JwtBearerAccessTokenManagementPlugin</con:item>
+    </con:map>
+    <con:item name="bearer-access-token-management-plugins-default">defaultATM</con:item>
+    <con:map name="bearer-access-token-management-plugin-sequence">
+        <con:item name="adminATM">1</con:item>
+        <con:item name="defaultATM">2</con:item>
+        <con:item name="obATM">3</con:item>
+    </con:map>
+    <con:map name="bearer-access-token-management-plugins-parents"/>
+</con:config>

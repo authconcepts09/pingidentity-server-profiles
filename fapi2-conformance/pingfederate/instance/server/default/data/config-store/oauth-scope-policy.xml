@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:item name="lastUpdated">1557436126188</con:item>
+    <con:map name="scope-descriptions">
+        <con:item name="address">View my address</con:item>
+        <con:item name="phone">View my phone numbers</con:item>
+        <con:item name="openid">OpenID Connect</con:item>
+        <con:item name="profile">View my profile</con:item>
+        <con:item name="payments">Make payments</con:item>
+        <con:item name="accounts">View accounts</con:item>
+        <con:item name="email">View my email address</con:item>
+    </con:map>
+    <con:list name="dynamic-common-scopes"/>
+    <con:map name="scope-group-descriptions"/>
+    <con:map name="scope-group-mappings"/>
+    <con:map name="exclusive-scope-descriptions">
+        <con:item name="user_consent">Manage user consent</con:item>
+        <con:item name="urn:pingidentity:directory-delegated-admin">Delegated directory manager</con:item>
+        <con:item name="urn:pingdirectory:consent_admin">Privileged Scope for Consent</con:item>
+    </con:map>
+    <con:list name="dynamic-exclusive-scopes"/>
+    <con:map name="exclusive-scope-group-descriptions"/>
+    <con:map name="exclusive-scope-group-mappings"/>
+</con:config>
